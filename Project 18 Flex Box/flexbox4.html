@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox4</title>
+    <style>
+        *{
+            margin: 0%;
+        }
+        .parent{
+            display: flex;
+        }   
+        .child1{
+            background-color: lightblue;
+            /* width: 200px;
+            height: 600px; */
+            display: flex;
+            padding: 5%;            
+        }
+
+        .child2{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .child3{
+            padding: 5%;
+            background-color: greenyellow;
+            
+        }
+
+        .child4{
+            padding: 3%;
+            height: 330px;
+        }
+
+        .child5{
+            padding: 3%;
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child1">nav</div>
+        <div class="child2">
+            <div class="child3">header</div>
+            <div class="child4">article</div>
+            <div class="child5">footer</div>
+        </div>
+    </div>
+</body>
+</html>
