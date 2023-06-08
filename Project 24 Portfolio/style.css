@@ -7,6 +7,155 @@
 
 body{
     background-color: rgb(0, 0, 33);
-    color: black;
+    color: white;
     font-family: 'Poppins', sans-serif;
 }
+/* header{
+    top: 0;
+    position:fixed;
+    width: 100%;
+} */
+
+/* navbar css */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 19, 62);
+    
+}
+
+/* ul li css */
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 25px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    border-bottom: 3px solid yellow;
+    color: rgb(97, 155, 222);
+    padding: 0 0 4px 0;
+}
+
+/* portfolio logo css */
+.left{
+    font-size: 23px;
+    font-weight: 500;
+}
+
+
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 0;
+    /* align-items: center; */
+}
+
+.firstsection > div{
+    width: 30%;
+}
+
+.leftsection{
+    font-size: 2.5rem; 
+    /* background-color: red; */
+}
+
+.rightsection img{
+   width: 105%;
+    border-radius: 56px;
+    /* background-color: red; */
+}
+
+.yellow{
+    color: yellow;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    /* height: 80vh; */
+}
+
+main hr{
+    border: 0;
+    background-color:#9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.secondsection h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+.container{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+.card_img{
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+}
+.card_container{
+    /* background-color: white; */
+    border-radius: 20px;
+    margin: 20px;
+    
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center; 
+}
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 0;
+}
+ 
+ul li{
+    list-style: none;
+    margin: 30px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+ }
+
+ .container2 div{
+    width: 30%;
+ }
+
+ form input, form textarea{
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(18, 19, 62);
+    border: none;
+    border-radius: 5px;
+    color: white;
+ }
+
+ 
