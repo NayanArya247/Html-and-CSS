@@ -272,7 +272,11 @@ footer{
         width: 50%;
         margin-left: 50px;
      }    
+     .rightsection img{
+        width: 300%;
+     }
 }
+
 
 @media screen and (max-width: 400px) {
     .container2{
@@ -282,4 +286,9 @@ footer{
      .leftcontainer{
         margin: 30px;
      }
+
+     .rightsection img{
+        width: 300%;
+     }
 }
+
