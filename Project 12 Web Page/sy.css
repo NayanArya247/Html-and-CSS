@@ -12,6 +12,7 @@
 .content{
     max-width: 1000px;
     margin: 30px auto;
+    width: 100%;
 }
 
 .content nav{
@@ -24,6 +25,7 @@
     color: white;
     font-size: 30px;
     font-weight: 400;
+    width: 100%;
     
 }
 
