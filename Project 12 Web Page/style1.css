@@ -108,6 +108,11 @@ hr{
     font-weight: 400;
 }
 
+.menu ul li a:hover{
+    color: #FF7575;
+    border-bottom: 2px solid #FF7575;
+}
+
 .img{
     width: 1rem;
 }
@@ -157,12 +162,55 @@ hr{
     
 }
 
-.page{
-    max-width: 1000px;
-    width: auto;
-    
-}
+
+.page ul{
+ display: flex;
+ width: 100%;
+ justify-content: center;
+ gap: 4rem;
+ align-items: center;   
+}    
+
 .page ul li{
-    justify-content: center;
+ list-style-type: none;
+}
+
+.page ul li a{
+ text-decoration: none;
+ color: #909090;
+font-family: Recursive;
+font-size: 1.2rem;
+font-style: italic;
+}
+
+.page ul li a:hover{
+    color: #FF7575;
+    border-bottom: 2px solid #FF7575;
+}
+
+.page ul li.active a{
+    color: #FF7575;
+    border-bottom: 2px solid #FF7575;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
     align-items: center;
+    gap: 15rem;
+}
+
+.footer p{
+    padding: 2rem;
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.footer .link{
+    margin: 0 1.1rem;
+    padding: 0 1.1rem;
+    border-radius: 0.3125rem;
+    background: #4699E0;
 }
